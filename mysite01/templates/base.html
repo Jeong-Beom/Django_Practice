@@ -1,0 +1,20 @@
+{% load static %}
+<!doctype html>
+<html lang="ko">
+    <head>
+        <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
+         <!-- Bootstrao CSS -->
+          <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+          <!-- pybo CSS -->
+           <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+           <title>Hello, pybo!</title>
+    </head>
+    <body>
+        <!--- Start content in base template -->
+        {% block content %}
+        {% endblock %}
+        <!-- End content in base template -->
+    </body>
+</html>
