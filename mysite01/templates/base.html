@@ -7,14 +7,16 @@
          <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
          <!-- Bootstrao CSS -->
           <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
-          <!-- pybo CSS -->
-           <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
-           <title>Hello, pybo!</title>
+           <title>mysite01</title>
     </head>
     <body>
+        <!-- navigation bar -->
+         {% include "navbar.html" %}
         <!--- Start content in base template -->
         {% block content %}
         {% endblock %}
         <!-- End content in base template -->
+        <!-- Bootstrap JS -->
+        <script src="{% static 'bootstrap.min.js' %}"></script>
     </body>
 </html>

@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'pybo.apps.PyboConfig', # (직접추가) 프로젝트에 특정앱을 연결하기 위해 추가함(Pybo폴더 내의 apps.py)
+    'common.apps.CommonConfig', # (직접추가) 프로젝트에 특정앱을 연결하기 위해 추가함(common폴더 내의 apps.py)
+    'pybo.apps.PyboConfig', # (직접추가) 프로젝트에 특정앱을 연결하기 위해 추가함(pybo폴더 내의 apps.py)
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -125,3 +126,6 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# if login is success, move to this page
+LOGIN_REDIRECT_URL = '/'
