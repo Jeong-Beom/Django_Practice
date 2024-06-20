@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include 
-from pybo import views
+from pybo.views import base_views 
 # include: 내부 파라미터(pybo폴더의 urls.py파일)의 매핑 정보를 읽어서 처리하라는 의미
 # Django의 기본구조는 Browser에서 온 호출을 urls에 맞춰 매핑하고, urls는 전달받은 정보를 다시 views에 매핑하려 return하는 형태임.
 
@@ -24,5 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('pybo/', include('pybo.urls')),
     path('common/', include('common.urls')),
-    path('', views.index, name='index'),
+    path('', base_views.index, name='index'),
 ]
