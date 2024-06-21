@@ -8,4 +8,4 @@ pyenv activate venv_mysite01
 export DJANGO_SETTINGS_MODULE=config.settings.prod
 
 # run serever
-python manage.py runserver
+python manage.py runserver 0:8000
