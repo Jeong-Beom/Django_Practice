@@ -131,9 +131,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # if login is success, move to this page
 LOGIN_REDIRECT_URL = '/'
 
-# Set logging
-(... 생략 ...)
-
 # 로깅설정
 LOGGING = {
     'version': 1,
