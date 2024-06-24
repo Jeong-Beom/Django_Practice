@@ -17,5 +17,5 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 ALLOWED_HOSTS = [os.environ.get('IP')]
 STATIC_ROOT = BASE_DIR / 'static/'
 STATICFILES_DIRS = []
-DEBUG = os.environ.get('DEBUG')
+DEBUG = env('DEBUG', default=False)
 
