@@ -6,8 +6,9 @@
 4. sudo systemctl restart nginx
 
 ### 시작 가이드(로컬서버)
-0. git clone
+0. Change Time standard and git clone
 >```bash
+>sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 >git clone https://github.com/Jeong-Beom/Django_Practice.git
 >```  
 1. Create virtual environment and reboot.
