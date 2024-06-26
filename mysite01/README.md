@@ -4,8 +4,41 @@
 2. git pull
 3. sudo systemctl restart mysite01.service
 4. sudo systemctl restart nginx
+5. 
+### 시작 가이드(로컬서버)
+0. git clone
+>```bash
+>git clone https://github.com/Jeong-Beom/Django_Practice.git
+>```  
+1. Create virtual environment and reboot.
+>```bash
+>pyenv install 3.12.4
+>pyenv virtualenv 3.12.4 venv_mysite01
+>```
+2. Activate Virtual Environment after move to project directory(~/Django_Practice/mysite01) as command.
+>```bash
+>. Activate_server_local.sh
+>```
+3. Install packages
+>```python
+>pip install -r requirements.txt
+>```
+4. Create logs folder and .env file that is created for storing important informantions like SECRET KEY.(+ migrate)
+>```bash
+>mkdir logs
+>sudo nano .env
+>```
+>```
+># .env info
+>SECRET_KEY={적용할 SECRET 값 정보}
+>DEBUG={적용할 DEBUG값}
+>{...}
+>```
+>```bash
+>python manage.py migrate
+>```
 
-### 시작 가이드
+### 시작 가이드(운영서버)
 0. Change Time standard and git clone
 >```bash
 >sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
