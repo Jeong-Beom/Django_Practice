@@ -45,14 +45,14 @@ libffi-dev python3-tk
 >>><img src ="https://img.shields.io/badge/github-181717.svg?&style=for-the-badge&logo=github&logoColor=white"/>
 >> Development
 >>> <img src ="https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white"/>
->>><img src ="https://img.shields.io/badge/django-092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/>
+>>> <img src ="https://img.shields.io/badge/django-092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/>
 >>> <img src ="https://img.shields.io/badge/html5-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 >>> <img src ="https://img.shields.io/badge/css3-1572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 >>> <img src ="https://img.shields.io/badge/bootstrap-7952B3.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
->>> <img src ="https://img.shields.io/badge/nginx-009639.svg?&style=for-the-badge&logo=nginx&logoColor=white"/>
->>> <img src ="https://img.shields.io/badge/gunicorn-499848.svg?&style=for-the-badge&logo=gunicorn&logoColor=white"/>
 >> Deployment
 >>> <img src ="https://img.shields.io/badge/microsoftazure-0078D4.svg?&style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 >>> <img src ="https://img.shields.io/badge/amazonwebservices-232F3E.svg?&style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
 >>> <img src ="https://img.shields.io/badge/postgresql-4169E1.svg?&style=for-the-badge&logo=postgresql&logoColor=white"/>
+>>> <img src ="https://img.shields.io/badge/nginx-009639.svg?&style=for-the-badge&logo=nginx&logoColor=white"/>
+>>> <img src ="https://img.shields.io/badge/gunicorn-499848.svg?&style=for-the-badge&logo=gunicorn&logoColor=white"/>
 ----------------------
