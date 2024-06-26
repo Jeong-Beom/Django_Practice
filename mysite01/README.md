@@ -4,7 +4,7 @@
 2. git pull
 3. sudo systemctl restart mysite01.service
 4. sudo systemctl restart nginx
-5. 
+
 ### 시작 가이드(로컬서버)
 0. git clone
 >```bash
