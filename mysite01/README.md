@@ -79,13 +79,13 @@
 >sudo systemctl status mysite01.service
 >sudo systemctl enable mysite01.service
 >```
-6. Move to '/etc/nginx/sites-available/' and create file for nginx.
+6. Move to '/etc/nginx/sites-available/' and create file for nginx. 
 >- create mysite01 file
 >```bash
 >sudo nano mysite01
 >```
 >```
-># mysite01 - if it doesn't exist domain. it is needed to open 80 port.
+># mysite01 - if it doesn't exist domain. it is needed to open 80 port. it is needed to change as environment.
 >server {
 >        listen 80;
 >        server_name {IP 주소};
@@ -102,7 +102,7 @@
 >        }
 >}
 >
-># mysite01 - if it exists domain. it is needed to open 80, 443 port.
+># mysite01 - if it exists domain. it is needed to open 80, 443 port. it is needed to change as environment.
 >server {
 >        listen 80;
 >        server_name {도메인 명칭};
